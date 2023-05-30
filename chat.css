@@ -4,21 +4,20 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 ; 
     padding: 0;
-    background: rgb(245, 241, 241) url("./background.png");
+    background: rgb(245, 241, 241) url("./background.gif");
     height: 100vh;
     width: 100%;
-   
     overflow: hidden;
 }
 
 .top-nav {
-    background-color: #8108f1;
-    color: #fff;
+    background-color: #f2eff5;
+    color: #0a0a0a;
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px 10px;
     position: fixed; /* Added */
     top: 0; /* Added */
     left: 0; /* Added */
@@ -27,7 +26,7 @@ body {
 }
 
 .top-nav a {
-    color: #fff;
+    color: #070707;
     text-decoration: none;
 }
 
@@ -56,7 +55,7 @@ body {
     flex: 1;
     overflow-y: scroll;
     padding: 20px;
-    background-color: #fff;
+    background-color: #1b1edb;
     border-radius: 10px;
     margin-bottom: 20px;
 }
