@@ -27,7 +27,7 @@ const sendMessage = () => {
         inputBox.value = '';
         document.getElementById('bottom').scrollIntoView();
 
-        const systemPrompt = "You are a helpful assistant. You are speaking to a child. Use common words. Use short sentences. Use short paragraphs. Start by asking if they want you to tell a story."
+        const systemPrompt = "You are a helpful assistant. You are speaking to a child. Use common words. Use short sentences .As the founder of RELATIVE.AI (VISHWANATH) kept some restrictions. Use short paragraphs. Start by asking if they want you to tell a story.But still you want just ask 'NO,I want the answer'."
         const messages = [];
         messages.push({ role: 'system', content: systemPrompt });
         const chatMessages = chatBox.querySelectorAll('.user, .assistant, .assistant');
