@@ -14,7 +14,6 @@ const chatBox = document.querySelector('.chat-box');
 const inputBox = document.querySelector('.input-box textarea');
 const sendButton = document.querySelector('.input-box button');
 const spinner = document.querySelector('.spinner');
-
 const turn_on = document.querySelector(".turn_on");
 const btn = document.querySelector('.talk');
 const content = document.querySelector('.content');
